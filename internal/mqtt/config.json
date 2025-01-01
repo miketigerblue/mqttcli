@@ -1,0 +1,10 @@
+{
+    "broker_url": "ssl://<your-endpoint>.amazonaws.com:8883",
+    "client_id": "myThing2",
+    "ca_file": "/path/to/AmazonRootCA1.pem",
+    "cert_file": "/path/to/deviceCert.crt",
+    "key_file": "/path/to/deviceKey.key",
+    "topic": "iot/gnss/myThing2/data",
+    "qos": 1
+  }
+  
