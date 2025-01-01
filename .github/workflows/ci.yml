@@ -10,6 +10,6 @@ jobs:
         with:
           go-version: '1.24'
       - name: Build
-        run: go mod download
-        run: go build ./cmd/mqttcli
+        run: 
+        run: go mod download & go build ./cmd/mqttcli
 
